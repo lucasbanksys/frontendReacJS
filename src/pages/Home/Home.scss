@@ -1,0 +1,12 @@
+@import "../../styles/style.scss";
+
+.content {
+  @include container;
+  flex: 1;
+  &-title {
+    padding-top: 1rem;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+}

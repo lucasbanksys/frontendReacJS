@@ -1,0 +1,28 @@
+@import "../../../styles/colors.scss";
+
+.card h3 {
+  color: hsl(48, 100%, 70%);
+  text-shadow: #000 1px 0 10px;
+}
+
+.card p {
+  color: white;
+  text-shadow: #ccc 1px 0 10px;
+}
+
+.card {
+  margin: 35px 10px 10px 50px;
+  padding: 1rem;
+  width: 25%;
+  height: 25%;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  background-color: #3498db;
+  align-items: center;
+  border-radius: 25px;
+}
+.card p {
+  margin-top: 8 px;
+  padding-bottom: 8px;
+}
